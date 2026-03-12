@@ -1,0 +1,68 @@
+/* Root container */
+.landing-root {
+    -fx-background-color: linear-gradient(to bottom right, #e8f0ff, #f9fbff);
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-alignment: center;
+    -fx-spacing: 20;
+    -fx-padding: 60;
+    -fx-background-radius: 12;
+}
+
+/* App title */
+.app-title {
+    -fx-font-size: 42px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1a1a1a;
+    -fx-padding: 10 0 50 0;
+}
+
+/* Primary button */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #0066ff, #004de6);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-padding: 10 60;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 2);
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #004de6, #003bb5);
+}
+
+/* Secondary button */
+.btn-secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #0057b7;
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-padding: 10 60;
+    -fx-border-color: #0057b7;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #e6f0ff;
+}
+
+/* Decorative corner shapes */
+.corner-shape {
+    -fx-shape: "M0,0 L100,0 L0,100 Z"; /* simple diagonal triangle */
+    -fx-background-color: rgba(0, 87, 183, 0.2);
+    -fx-opacity: 0.7;
+}
+
+.corner-shape.top-left {
+    -fx-translate-x: -40;
+    -fx-translate-y: -40;
+}
+
+.corner-shape.bottom-right {
+    -fx-rotate: 180;
+    -fx-translate-x: 40;
+    -fx-translate-y: 40;
+}

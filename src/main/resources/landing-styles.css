@@ -1,0 +1,19 @@
+.landing-btn {
+    -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-font-size: 16px;
+    -fx-padding: 12 40;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian , rgba(0, 0, 0, 0.15), 5, 0.4, 0, 2);
+    -fx-min-width: 140px;
+}
+
+.landing-btn:hover {
+    -fx-background-color: linear-gradient(to right, #2a5298, #1e3c72);
+}
+
+.landing-btn:pressed {
+    -fx-background-color: #1a3a6d;
+}

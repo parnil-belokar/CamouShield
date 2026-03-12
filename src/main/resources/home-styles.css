@@ -1,0 +1,142 @@
+/*
+ * GENERAL LAYOUT AND BACKGROUND
+ */
+.home-root {
+    -fx-background-color: linear-gradient(to bottom right, #1f6ff0, #0c3577);
+    -fx-font-family: "Segoe UI", 'Roboto', sans-serif;
+}
+
+
+/*
+ * TOP BAR
+ */
+.app-topbar {
+    -fx-padding: 30 50 0 50;
+    -fx-alignment: center-left;
+}
+
+.user-greeting-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+    -fx-font-weight: 400;
+}
+
+.user-name-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+}
+
+.profile-btn {
+    -fx-background-color: rgba(255,255,255,0.25);
+    -fx-text-fill: white;
+    -fx-font-weight: 500;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.profile-btn:hover {
+    -fx-background-color: rgba(255,255,255,0.35);
+}
+
+
+
+/*
+ * MAIN STATUS SECTION
+ */
+.section-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 10 0;
+}
+
+.glass-box {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+    -fx-background-radius: 12;
+    -fx-padding: 25 25;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 20, 0.3, 0, 0);
+}
+
+.status-title-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+    -fx-text-fill: rgba(255,255,255,0.85);
+}
+
+.main-status-label {
+    -fx-font-size: 34px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #ffffff;
+}
+
+
+/*
+ * BOTTOM ACTIVITY BAR
+ */
+.progress-container {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 20 40 20 40;
+}
+
+.activity-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #ffffff;
+}
+
+.progress-text-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: rgba(255, 255, 255, 0.85);
+}
+
+
+/* FULL-WIDTH PROGRESS BAR */
+.full-white-progress-bar {
+    -fx-control-inner-background: white;
+    -fx-background-radius: 6;
+    -fx-padding: 3;
+    -fx-min-height: 18;
+}
+
+.full-white-progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #2ecc71, #27ae60);
+    -fx-background-radius: 4;
+}
+
+
+/*
+ * BUTTONS
+ */
+.btn {
+    -fx-font-weight: 600;
+    -fx-font-size: 15px;
+    -fx-padding: 10 35;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #ffffff, #f0f0f0);
+    -fx-text-fill: #1f6ff0;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #f0f0f0, #e0e0e0);
+}
+
+.btn-secondary-danger {
+    -fx-background-color: linear-gradient(to right, #d64545, #c03a3a);
+    -fx-text-fill: white;
+}
+
+.btn-secondary-danger:hover {
+    -fx-background-color: linear-gradient(to right, #c03a3a, #a83030);
+}

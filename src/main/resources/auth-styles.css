@@ -1,0 +1,96 @@
+/* Root container for AuthPage */
+.auth-root {
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Back button */
+.back-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+    -fx-padding: 6 14;
+    -fx-border-color: transparent;
+}
+
+.back-button:hover {
+    -fx-text-fill: #e3f2ff;
+}
+
+/* Auth card container (login/register box) */
+.form-container {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 18;
+    -fx-padding: 32 34 30 34;
+    -fx-effect: dropshadow(gaussian, rgba(0, 50, 120, 0.25), 22, 0.45, 0, 6);
+    -fx-max-width: 420;
+}
+
+/* Title */
+.form-title {
+    -fx-text-fill: #102a43;
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+    -fx-padding: 0 0 4 0;
+}
+
+/* Subtitle */
+.form-subtitle {
+    -fx-text-fill: #627d98;
+    -fx-font-size: 13px;
+    -fx-padding: 0 0 18 0;
+}
+
+/* Text fields */
+.text-input {
+    -fx-background-color: rgba(255, 255, 255, 0.96);
+    -fx-text-fill: #102a43;
+    -fx-prompt-text-fill: #9fb3c8;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-color: transparent;
+    -fx-padding: 10 14;
+    -fx-border-width: 0;
+}
+
+.text-input:focused {
+    -fx-border-color: #1f6ff0;
+    -fx-border-width: 1.5;
+    -fx-background-color: #ffffff;
+}
+
+/* Buttons (Login/Register) */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #1f6ff0, #1554c3);
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-font-size: 15px;
+    -fx-padding: 11 0;
+    -fx-background-radius: 9;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.18), 7, 0, 0, 3);
+    -fx-min-width: 260;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #1554c3, #10439b);
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #0f3a86;
+}
+
+/* Hyperlink styling */
+.form-link {
+    -fx-text-fill: #1f6ff0;
+    -fx-font-size: 13px;
+    -fx-underline: false;
+    -fx-cursor: hand;
+    -fx-padding: 8 0 0 0;
+}
+
+.form-link:hover {
+    -fx-underline: true;
+    -fx-text-fill: #1554c3;
+}

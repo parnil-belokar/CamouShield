@@ -1,0 +1,100 @@
+/* Root for profile page – reuse overall gradient feel */
+.profile-root {
+    -fx-background-color: linear-gradient(to bottom right, #4a90e2, #a1c4fd);
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Top bar */
+.profile-topbar {
+    -fx-padding: 16 24 0 24;
+    -fx-alignment: center-left;
+}
+
+.profile-user-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: rgba(255,255,255,0.95);
+}
+
+/* Card */
+.profile-card {
+    -fx-background-color: rgba(255,255,255,0.96);
+    -fx-background-radius: 18;
+    -fx-padding: 26 32 24 32;
+    -fx-effect: dropshadow(gaussian, rgba(0, 50, 120, 0.25), 22, 0.45, 0, 6);
+    -fx-spacing: 12;
+    -fx-alignment: center-left;
+}
+
+.profile-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #102a43;
+}
+
+.profile-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #627d98;
+}
+
+.profile-label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #486581;
+}
+
+.profile-status {
+    -fx-font-size: 12px;
+    -fx-text-fill: #d64545;
+}
+
+/* Buttons */
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #1f6ff0, #1554c3);
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-font-size: 14px;
+    -fx-padding: 8 22;
+    -fx-background-radius: 9;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 6, 0, 0, 3);
+    -fx-min-width: 150;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to right, #1554c3, #10439b);
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #0f3a86;
+}
+
+.btn-danger {
+    -fx-background-color: #d64545;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-font-size: 14px;
+    -fx-padding: 8 20;
+    -fx-background-radius: 9;
+    -fx-cursor: hand;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #b73737;
+}
+
+.btn-link {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1f6ff0;
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+    -fx-padding: 4 10;
+    -fx-cursor: hand;
+}
+
+/* Background shapes (if styled via CSS) */
+.profile-shape-light {
+    -fx-fill: rgba(255,255,255,0.18);
+}
+
+.profile-shape-band {
+    -fx-fill: rgba(21,84,195,0.25);
+}
