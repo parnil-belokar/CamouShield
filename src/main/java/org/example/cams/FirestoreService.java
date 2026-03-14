@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 public class FirestoreService {
 
     // TODO: REPLACE THIS WITH YOUR ACTUAL FIREBASE PROJECT ID
-    private static final String PROJECT_ID = "AIzaSyA-8Fq8WxRNJRvl4XpYrpQgvlMlCbyeSuY";
+    private static final String PROJECT_ID = "";
 
     private static final String BASE_URL = "https://firestore.googleapis.com/v1/projects/" + PROJECT_ID + "/databases/(default)/documents";
     private static final HttpClient client = HttpClient.newHttpClient();
